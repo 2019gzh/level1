@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 414px;
+            height: 280px;
+            margin: 100px auto;
+        }
+
+        .boxone {
+            width: 414px;
+            height: 19px;
+            margin-bottom: 12px;
+        }
+
+        .boxone a {
+
+            font: 14px "Microsoft Yahei";
+            margin-right: 14px;
+        }
+
+        .boxone a:active {
+            color: #02a7de;
+        }
+
+        a {
+            text-decoration: none;
+            color: #555555;
+        }
+
+        .boxtwo {
+            width: 414px;
+            height: 66px;
+            margin-bottom: 6px;
+        }
+
+        .boxtwo input {
+            display: block;
+            width: 402px;
+            padding: 8px 0px 8px 8px;
+            font: 14px "Microsoft Yahei";
+            color: #757575;
+        }
+
+        .boxthree {
+            width: 414px;
+            height: 66px;
+            margin-bottom: 6px;
+        }
+
+        .boxthree input {
+            display: block;
+            width: 402px;
+            padding: 8px 0px 8px 8px;
+            font: 14px "Microsoft Yahei";
+            color: #757575;
+        }
+
+        .boxfour {
+            width: 414px;
+            height: 20px;
+        }
+
+        #span1 {
+            color: #717171;
+        }
+
+        #span2 {
+            color: #bbbbbb;
+        }
+
+        .box label {
+            font: 12px "Microsoft Yahei";
+        }
+
+        .boxfive {
+            display: inline-block;
+            float: right;
+            height: 20px;
+        }
+
+        .boxfive a {
+            font: 12px "Microsoft Yahei";
+            color: #00a1d6;
+        }
+
+        .boxsix {
+            width: 414px;
+            height: 38px;
+            margin-top: 10px;
+        }
+
+        .a1 {
+            display: block;
+            float: left;
+            width: 175px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            color: #fff;
+            border: 1px solid #cccccc;
+            background-color: #00a7de;
+        }
+
+        .a2 {
+            display: block;
+            float: right;
+            width: 175px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            border: 1px solid #cccccc;
+        }
+
+        .boxseven {
+            float: left;
+            width: 414px;
+            height: 25px;
+            margin-top: 10px;
+        }
+
+        #img3 {
+            height: 25px;
+        }
+
+        .a_image {
+            float: left;
+        }
+
+        .boxeight,
+        .boxnine {
+            float: left;
+            width: 100px;
+            height: 25px;
+            margin-left: 5px;
+        }
+
+        .boxeight,
+        .boxnine a {
+            display: inline-block;
+            font: 12px "Microsoft Yahei";
+            height: 25px;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="boxone">
+            <a href="#">
+                密码登录
+            </a>
+            <a href="#">
+                短信登录
+            </a>
+        </div>
+        <div class="boxtwo">
+            <input type="text" value="你的手机号/邮箱">
+        </div>
+        <div class="boxthree">
+            <input type="password" placeholder="密码">
+        </div>
+        <div class="boxfour">
+            <input type="checkbox" id="checkbox" checked="checked">
+            <label for="checkbox">
+                <span id="span1">记住我</span>
+                <span id="span2">不是自己的电脑上不要勾选此项</span>
+            </label>
+            <div class="boxfive">
+                <a href="#">无法验证？</a>
+                <a href="#">忘记密码？</a>
+            </div>
+            <div class="boxsix">
+                <a href="#" class="a1">登录</a>
+                <a href="#" class="a2">注册</a>
+            </div>
+        </div>
+        <div class="boxseven">
+            <a href="#" class="a_image">
+                <img src="images/p1.png" alt="">
+
+            </a>
+            <div class="boxeight">
+                <a href="#">微博账号登录</a>
+            </div>
+            <a href="#" class="a_image">
+                <img src="images/p2.png" alt="" id="img3">
+
+            </a>
+            <div class="boxnine">
+                <a href="#">QQ账号登录</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
